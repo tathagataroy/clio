@@ -1,1 +1,0 @@
-angular.module("templates",[]).run(["$templateCache",function(t){t.put("scripts/common/tooltip/tooltip.html",'<span class="awapp tooltip">\n  <span ng-repeat-start="(key, content) in data">{{content.label}}: </span>\n  <span ng-repeat-end ng-class="content.threshold_crossed > 0 ? \'error\' : \'normal\'">{{content.value}}<br class="tooltip-separate"/></span>\n</span>')}]);
