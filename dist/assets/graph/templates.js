@@ -1,0 +1,1 @@
+angular.module("templates",[]).run(["$templateCache",function(a){a.put("scripts/common/graph/graph.html",'<div chart-data="graphData"></div>')}]);

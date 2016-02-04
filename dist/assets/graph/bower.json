@@ -1,0 +1,30 @@
+{
+  "name": "graph",
+  "main": ["graph.js","graph.min.js"],
+  "moduleType": [],
+  "authors": [
+    "troy"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "jquery",
+    "angular",
+    "highcharts"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4",
+    "highcharts": "~4.2"    
+  },
+  "description": "tooltip component",
+  "keywords": [
+    "tooltip"
+  ]
+}
